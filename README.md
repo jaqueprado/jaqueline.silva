@@ -202,9 +202,9 @@ If you add an expense before you set the income, the balance is negative.
 In the free application, after we set the language the right menu does not collapse automatically
 For a better use experience it should collapse automatically.
 
-### AUTOMATED TESTS
+## AUTOMATED TESTS
 
-## PROJECT STRUCTURE
+### PROJECT STRUCTURE
 
 Initialy there are the Gherkin files for each test
 
