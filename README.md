@@ -190,8 +190,8 @@ This project is for an exercise on making exploratory tests using the free versi
 
 ## NOTES
 
-Executar testes de forma continua vem se tornado fundamental para agregar valor junto a seu time,
-para isto foi configurado o pipeline para ser aplicado ao jenkins chamando "Jenkinsfile"
-localizado na raiz do projeto
+If you add an expense before you set the income, the balance is negative.
+In the free application, after we set the language the right menu does not collapse automatically
+For a better use experience it should collapse automatically.
 
 
