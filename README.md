@@ -6,7 +6,7 @@ This project is for an exercise on making exploratory tests using the free versi
 
 ### EXPLORATORY TESTS
 
-#### Configure Language
+### Configure Language
 
 | Configure Language  |                                              |
 | ------------------- | -------------------                          |
@@ -33,7 +33,7 @@ This project is for an exercise on making exploratory tests using the free versi
 
 ```
 
-#### Configure Currency
+### Configure Currency
 
 | Configure Currency  |                                              |
 | ------------------- | -------------------                          |
@@ -60,7 +60,7 @@ This project is for an exercise on making exploratory tests using the free versi
 
 ```
 
-#### Add Income
+### Add Income
 
 | Add Income          |                                              |
 | ------------------- | -------------------                          |
@@ -86,7 +86,7 @@ This project is for an exercise on making exploratory tests using the free versi
 
 ```
 
-#### Add Expense
+### Add Expense
 
 | Add Expense         |                                              |
 | ------------------- | -------------------                          |
@@ -112,7 +112,7 @@ This project is for an exercise on making exploratory tests using the free versi
 
 ```
 
-#### Schedule Expense
+### Schedule Expense
 
 | Schedule Expense    |                                              |
 | ------------------- | -------------------                          |
@@ -139,7 +139,7 @@ This project is for an exercise on making exploratory tests using the free versi
 9. The expense is scheduled
 
 ```
-#### Add account with Credit Card
+### Add account with Credit Card
 
 | Add account         |                                                    |
 | ------------------- | -------------------                                |
@@ -165,7 +165,7 @@ This project is for an exercise on making exploratory tests using the free versi
 8.	The message “New Account was added” is displayed
 
 ```
-#### Browse Records
+### Browse Records
 
 | Browse Records      |                                                 |
 | ------------------- | -------------------                             |
@@ -189,9 +189,31 @@ This project is for an exercise on making exploratory tests using the free versi
 ```
 
 ## NOTES
+The Tests are defined in the prioritization order.
+To be able to manage the income and expenses we need to be sure the configuration works and it's understandable,
+Then we go to the income features and expenses.
 
+It was taken around 2 and 3 hours to build all tests charts, because I didn't have any previous knowledge of the application.
+
+We need to focus in the security , login, passcode and sychronization as the application deals with financial data
+
+#### Final conclusions on the tests:
 If you add an expense before you set the income, the balance is negative.
 In the free application, after we set the language the right menu does not collapse automatically
 For a better use experience it should collapse automatically.
 
+### AUTOMATED TESTS
 
+## PROJECT STRUCTURE
+
+Initialy there are the Gherkin files for each test
+
+| Folder               	| File    	                           | 
+|----------------------	|------------------------------------- |
+| src\main\feature      | Tests related to configuration       |
+| src\main\feature   		| Tests related to income              |
+| src\main\feature 			| Tests related to expense             |
+| src\main\feature		  | Tests related to account             |
+| src\main\feature		  | Tests related to browse              |
+
+Note: It's pending to include setup and code to run the tests.
